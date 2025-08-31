@@ -1,0 +1,146 @@
+/* ---------- Global Body ---------- */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  background: #fafafa;
+  padding: 10px;
+}
+
+/* ---------- Products ---------- */
+.products {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  background: white;
+  width: 220px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/* ---------- Buttons ---------- */
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* ---------- Cart ---------- */
+.cart {
+  margin-top: 30px;
+  background: white;
+  padding: 15px;
+  box-shadow: 0 2px 6px #aaa;
+  border-radius: 6px;
+}
+
+#cart {
+  list-style: none;
+  padding: 0;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  display: flex;
+  align-items: baseline;
+}
+
+#cart1 {
+  margin-left: 500px;
+  font-size: 150%;
+}
+
+.navbar a {
+  outline: none;
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Auth Pages (Login/Register) ---------- */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.auth-form {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  width: 320px;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+.auth-form a {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  color: #007bff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
+.btn-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff !important;  /* Force blue background */
+  color: white !important;               /* Force white text */
+  text-decoration: none !important;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+  background-color: #0056b3 !important;
+}
+
+
